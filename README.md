@@ -58,6 +58,9 @@ Check `logs/alerts.log` for output.
 
 ## Project Structure
 
+## Project Structure
+
+```
 ai_credential_detector/
 ├── src/
 │   ├── auth_simulator.py     # Generates simulated human + bot login events
@@ -70,6 +73,7 @@ ai_credential_detector/
 ├── models/                   # Saved model (.pkl)
 ├── logs/                     # Alert output
 └── data/                     # Login event CSVs
+```
 
 ---
 
